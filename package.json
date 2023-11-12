@@ -1,0 +1,24 @@
+{
+  "name": "sequelize-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "example:development": "cross-env NODE_ENV=development node index-test.js",
+    "example:test": "cross-env NODE_ENV=test node index-test.js",
+    "example:production": "cross-env NODE_ENV=production node index-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.35.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}
