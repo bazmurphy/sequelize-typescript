@@ -1,8 +1,7 @@
 "use strict";
 
 // Add this to get the process.env.NODE_ENV
-require("dotenv").config();
-// import "dotenv/config";
+require("dotenv").config(); // CommonJS (CJS)
 
 const fs = require("fs");
 const path = require("path");

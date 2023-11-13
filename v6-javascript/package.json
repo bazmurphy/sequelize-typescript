@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "example:development": "cross-env NODE_ENV=development node index-test.js",
-    "example:test": "cross-env NODE_ENV=test node index-test.js",
-    "example:production": "cross-env NODE_ENV=production node index-test.js"
+    "example:development": "cross-env NODE_ENV=development node example.js",
+    "example:test": "cross-env NODE_ENV=test node example.js",
+    "example:production": "cross-env NODE_ENV=production node example.js"
   },
   "keywords": [],
   "author": "",
