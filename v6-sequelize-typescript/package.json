@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "migrate:development": "cross-env NODE_ENV=development tsc && npx sequelize migration:generate --name development-migration",
+    "build": "tsc",
     "database-connection:development": "cross-env NODE_ENV=development ts-node src/connection.ts",
     "database-connection:test": "cross-env NODE_ENV=test ts-node src/connection.ts",
     "database-connection:production": "cross-env NODE_ENV=production ts-node src/connection.ts"
@@ -14,7 +16,8 @@
   "devDependencies": {
     "@types/node": "^20.9.0",
     "@types/sequelize": "^4.28.18",
-    "@types/validator": "^13.11.6"
+    "@types/validator": "^13.11.6",
+    "sequelize-cli": "^6.6.2"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
