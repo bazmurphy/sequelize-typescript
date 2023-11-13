@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "database-connection:development": "cross-env NODE_ENV=development ts-node connection.ts",
-    "database-connection:test": "cross-env NODE_ENV=test ts-node connection.ts",
-    "database-connection:production": "cross-env NODE_ENV=production ts-node connection.ts"
+    "database-connection:development": "cross-env NODE_ENV=development ts-node src/connection.ts",
+    "database-connection:test": "cross-env NODE_ENV=test ts-node src/connection.ts",
+    "database-connection:production": "cross-env NODE_ENV=production ts-node src/connection.ts"
   },
   "keywords": [],
   "author": "",
