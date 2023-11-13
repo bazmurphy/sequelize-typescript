@@ -1,0 +1,26 @@
+{
+  "name": "v7-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "database-connection:development": "cross-env NODE_ENV=development ts-node src/connection.ts",
+    "database-connection:test": "cross-env NODE_ENV=test ts-node src/connection.ts",
+    "database-connection:production": "cross-env NODE_ENV=production ts-node src/connection.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.33",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/pg": "^8.10.9"
+  }
+}

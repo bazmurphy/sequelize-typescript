@@ -1,0 +1,29 @@
+{
+  "name": "v6-sequelize-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "database-connection:development": "cross-env NODE_ENV=development ts-node connection.ts",
+    "database-connection:test": "cross-env NODE_ENV=test ts-node connection.ts",
+    "database-connection:production": "cross-env NODE_ENV=production ts-node connection.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/sequelize": "^4.28.18",
+    "@types/validator": "^13.11.6"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.35.0",
+    "sequelize-typescript": "^2.1.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
